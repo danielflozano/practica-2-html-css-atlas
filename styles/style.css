@@ -1,0 +1,775 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: white;
+    background-image: url(../assets/images/banner-bk.jpg); /* Se utiliza para poner la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    height: 718px;
+    padding: 90px 180px;
+}
+
+p {
+    font-size: 23px;
+}
+
+div.logoPrincipal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 57px;
+}
+
+img.logo {
+    height: 112px;
+}
+
+a.linkPrincipal {
+    text-decoration: none;
+    font-size: 27px;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+a.linkPrincipal:hover {
+    color: #00ffad;
+}
+
+h1 {
+    font-size: 100px;
+    padding-bottom: 57px;
+}
+
+p.pPrincipal {
+    font-size: 27px;
+    padding-bottom: 58px;
+}
+
+button.botonPrincipal {
+    background-color: #00ffad;
+    color: #192440;
+    font-size: 22px;
+    padding: 17px 45px;
+    border-radius: 40px;
+    font-weight: bold;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+button.botonPrincipal:hover {
+    transform: scale(1.05);
+    background-color: transparent;
+    color: #00ffad;
+    border: 1px solid #00ffad;
+}
+
+section {
+    padding: 140px 150px 108px;
+}
+
+h2 {
+    font-size: 63px;
+}
+
+h2.titulos1 {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+img.imgNav {
+    height: 255px;
+}
+
+h2.titulos2 {
+    padding-bottom: 30px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+li {
+    display: grid;
+    justify-items: center;
+    width: 515px;
+}
+
+a.aNav {
+    text-decoration: none;
+    font-size: 33px;
+    color: black;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+p.pNav {
+    text-align: center;
+    padding: 0 30px;
+}
+
+article.articulo1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+button.botonSecundario {
+    background-color:#192440;
+    color: white;
+    font-size: 22px;
+    padding: 17px 45px;
+    border-radius: 40px;
+    font-weight: bold;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+button.botonSecundario:hover {
+    transform: scale(1.05);
+    background-color: transparent;
+    color: #192440;
+    border: 1px solid #192440;
+}
+
+img.img2 { 
+    height: 396px;
+    padding: 8px 72px;
+}
+
+p.pSecciones {
+    padding-bottom: 68px;
+}
+
+div.takeALookInside {
+    padding: 0 30px;
+}
+
+article.articulo2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+section.seccion2 {
+    background-image: linear-gradient(168deg, white 50%, #00ffad 50%);
+    height: 550px;
+}
+
+section.seccion3 {
+    padding: 0 160px 80px; /*padding: 170px 160px 80px;*/
+    background-color: #00ffad;
+    margin-top: -15px;
+}
+
+section.pricesSection {
+    padding-bottom: 156px;
+}
+
+article.prices {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+div.premium {
+    background-color: #192440;
+    color: white;
+    height: 690px;
+    width: 540px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+div.startup {
+    height: 690px;
+    width: 540px;
+    text-align: center;
+}
+
+button.priceButton2 {
+    background-color: #00ffad;
+    color: #192440;
+    font-size: 22px;
+    padding: 17px 45px;
+    border-radius: 40px;
+    font-weight: bold;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+button.priceButton2:hover {
+    transform: scale(1.05);
+    background-color: transparent;
+    color: #00ffad;
+    border: 1px solid #00ffad;
+}
+
+button.priceButton {
+    background-color: white;
+    color: #192440;
+    border: 3px solid #192440;
+    font-size: 22px;
+    padding: 17px 45px;
+    border-radius: 40px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+button.priceButton:hover {
+    transform: scale(1.05);
+}
+
+h3 {
+    font-size: 32px;
+    padding-top: 70px;
+}
+
+h4 {
+    font-size: 20px;
+    padding: 15px 0px;
+}
+
+span.number {
+    font-size: 125px;
+}
+
+p.lastP {
+    margin-bottom: 50px;
+}
+
+section.brand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eceeef;
+    padding: 0 180px;
+    height: 300px;
+}
+
+section.contactUs {
+    background-image: url(../assets/images/contact-bk.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+article.contactUs1 {
+    color: white;
+    padding: 10px 30px;
+    }
+
+article.contactUs2 {
+    color: #00ffad;
+    font-size: 22px;
+    padding: 10px 30px;
+}
+
+div.formPart1 {
+    display: flex;
+}
+
+input[type=text] {
+    height: 50px;
+    width: 348px;
+    background-color: transparent;
+    border: solid 1px #00ffad;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+input[type=text].input1 {
+    margin-right: 50px;
+}
+
+textarea {
+    width: 698px;
+    height: 100px;
+    padding: 12px 25px;
+    resize: none;
+    background-color: transparent;
+    border: solid 1px #00ffad;
+    margin: 10px 0 40px;
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    background-color: #00ffad;
+    color: #192440;
+    width: 750px;
+    font-size: 22px;
+    padding: 17px 40px;
+    border-radius: 40px;
+    font-weight: bold;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+input[type=submit]:hover {
+    transform: scale(1.05);
+    background-color: transparent;
+    color: #00ffad;
+    border: 1px solid #00ffad;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #192440;
+    height: 170px;
+    color: white;
+    padding: 0 180px;
+}
+
+img.footerImg {
+    height: 65px;
+}
+
+@media screen and (max-width: 1600px) {
+    
+    input[type=text] {
+        width: 276px;
+    }
+
+    textarea {
+        width: 554px;
+    }
+
+    input[type=submit] {
+        width: 606px;
+    }
+
+}
+
+@media screen and (max-width: 1280px) {
+
+    header {
+        padding: 58px 117px;
+        height: auto;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    div.logoPrincipal {
+        padding-bottom: 10px;
+    }
+
+    img.logo {
+        height: 73px;
+    }
+    
+    a.linkPrincipal {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 50px;
+        padding-bottom: 30px;
+    }
+
+    p.pPrincipal {
+        font-size: 15px;
+        padding-bottom: 30px;
+    }
+
+    button.botonPrincipal {
+        font-size: 12px;
+        padding: 10px 25px;
+        border-radius: 40px;
+    }
+
+    section {
+        padding: 58px 117px;
+        height: auto;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h2.titulos1 {
+        padding-bottom: 20px;
+    }
+
+    img.imgNav {
+        height: 100px;
+    }
+
+    h2.titulos2 {
+        padding-bottom: 10px;
+    }
+
+    li {
+        width: auto;
+    }
+
+    a.aNav {
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+
+    button.botonSecundario {
+        font-size: 12px;
+        padding: 10px 25px;
+        border-radius: 40px;
+    }
+
+    img.img2 { 
+        height: 200px;
+        padding: 5px 50px;
+    }
+
+    p.pSecciones {
+        padding-bottom: 30px;
+    }
+    
+    div.takeALookInside {
+        padding: 0 30px;
+    }
+
+    section.seccion2 {
+        background-image: linear-gradient(168deg, white 50%, #00ffad 50%);
+        height: auto
+    }
+
+    section.seccion3 {
+        padding: 58px 117px;
+        height: auto;
+    }
+
+    section.pricesSection {
+        padding: 58px 117px;
+        height: auto;
+    }
+
+
+
+    div.startup {
+        height: auto;
+        width: 220px;
+        text-align: center;
+    }
+
+    div.premium {
+        height: auto;
+        width: 220px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 20px;
+        padding-top: 30px;
+    }
+
+    h4 {
+        font-size: 15px;
+        padding: 15px 0px;
+    }
+
+    span.number {
+        font-size: 50px;
+    }
+
+    button.priceButton2 {
+        font-size: 14px;    
+        padding: 9px 24px;
+        margin-bottom: 40px;
+    }
+
+    button.priceButton {
+        font-size: 14px;    
+        padding: 9px 24px;
+    }
+
+    section.brand {
+        padding: 58px 117px;
+        height: auto;
+    }
+
+    img.brandImg {
+        height: 55px;
+    }
+
+    section.contactUs {
+        height: auto;
+    }
+
+    article.contactUs1 {
+        padding: 10px;
+        }
+    
+    article.contactUs2 {
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    label {
+        font-size: 15px;
+    }
+
+    input[type=text] {
+        height: 30px;
+        width: 150.3px;
+    }
+    
+    input[type=text].input1 {
+        margin-right: 20px;
+    }
+
+    textarea {
+        width: 301.1px;
+        height: 60px;
+        padding: 5px 10px;
+    }
+
+    input[type=submit] {
+        width: 323.8px;
+        font-size: 12px;
+        padding: 10px 25px;
+    }
+
+    footer {
+        height: auto;
+        color: white;
+        padding: 30px 117px;
+    }
+    
+    img.footerImg {
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+
+    header {
+        padding: 50px 100px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    img.logo {
+        height: 50px;
+    }
+    
+    a.linkPrincipal {
+        font-size: 13px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p.pPrincipal {
+        font-size: 13px;
+    }
+
+    section {
+        padding: 50px 100px;
+    }
+
+    img.img2 { 
+        height: 130px;
+    }
+
+    section.seccion3 {
+        padding: 50px 100px;
+    }
+
+    section.pricesSection {
+        padding: 50px 100px;
+    }
+
+    section.brand {
+        padding: 50px 100px;
+    }
+
+    img.brandImg {
+        height: 30px;
+    }
+
+    article.contactUs1 {
+        padding: 0;
+    }
+    
+    article.contactUs2 {
+        font-size: 10px;
+        padding: 0 0 0 20px;
+    }
+
+    label {
+        font-size: 12px;
+    }
+
+    input[type=text] {
+        width: 100px;
+    }
+
+    textarea {
+        width: 202px;
+    }
+
+    input[type=submit] {
+        width: 224px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    header {
+        padding: 20px 50px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    img.logo {
+        height: 40px;
+    }
+    
+    a.linkPrincipal {
+        font-size: 11px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    p.pPrincipal {
+        font-size: 11px;
+    }
+
+    button.botonPrincipal {
+        font-size: 10px;
+        padding: 8px 20px;
+    }
+
+    section {
+        padding: 20px 50px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    img.imgNav {
+        height: 75px;
+    }
+
+    div.takeALookInside {
+        padding: 0;
+    }
+
+    button.botonSecundario {
+        font-size: 10px;
+        padding: 8px 20px;
+    }
+
+    img.img2 {
+        height: 100px;
+        padding: 5px;
+    }
+
+    section.seccion3 {
+        padding: 20px 50px;
+    }
+
+    section.pricesSection {
+        padding: 20px 50px;
+    }
+
+    div.startup {
+        height: auto;
+        width: 33.3%;
+        text-align: center;
+    }
+
+    div.premium {
+        height: auto;
+        width: 33%;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 15px;
+        padding-top: 20px;
+    }
+
+    h4 {
+        font-size: 10px;
+        padding: 0px 0px 10px;
+    }
+
+    span.number {
+        font-size: 30px;
+    }
+
+    p.lastP {
+        margin-bottom: 20px;
+    }
+
+    button.priceButton2 {
+        font-size: 10px;    
+        padding: 9px 14px;
+        margin-bottom: 20px;
+    }
+
+    button.priceButton {
+        font-size: 10px;    
+        padding: 9px 14px;
+    }
+
+    section.brand {
+        padding: 20px 50px;
+    }
+    
+    article.contactUs2 {
+        font-size: 10px;
+        padding: 0 0 0 20px;
+    }
+
+    label {
+        font-size: 10px;
+    }
+
+    input[type=text] {
+        width: 70px;
+        height: 20px;
+    }
+
+    textarea {
+        width: 142px;
+        height: 40px;
+    }
+
+    input[type=submit] {
+        width: 164px;
+    }
+
+    footer {
+        height: auto;
+        padding: 15px 50px;
+    }
+
+    img.footerImg {
+        height: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    
+}
+
