@@ -837,8 +837,8 @@ img.footerImg {
     }
 
     img.img2 {
+        display: block;
         height: 100px;
-        padding: 5px;
         margin: 0 auto;
     }
 
