@@ -437,7 +437,6 @@ img.footerImg {
     }
 
     section.seccion2 {
-        background-image: linear-gradient(168deg, white 50%, #00ffad 50%);
         height: auto
     }
 
@@ -770,6 +769,167 @@ img.footerImg {
 }
 
 @media screen and (max-width: 480px) {
-    
+
+    header {
+        padding: 10px 30px 20px;
+    }
+
+    div.logoPrincipal {
+        padding-bottom: 3px;
+    }
+
+    h1 {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    p.pPrincipal {
+        font-size: 8px;
+        padding-bottom: 20px;
+    }
+
+    button.botonPrincipal {
+        font-size: 6px;
+        padding: 4px 5px;
+    }
+
+    section {
+        padding: 10px 30px;
+    }
+
+    h2.titulos1 {
+        padding-bottom: 10px;
+    }
+
+    ul {
+        display: block;
+        list-style-type: none;
+    }
+
+    img.imgNav {
+        height: 60px;
+    }
+
+    a.aNav {
+        font-size: 10px;
+        padding-bottom: 10px;
+    }
+
+    p {
+        font-size: 8px;
+    }
+
+    article.articulo1 {
+        display: block;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    button.botonSecundario {
+        font-size: 6px;
+        padding: 4px 5px;
+    }
+
+    p.pSecciones {
+        padding-bottom: 5px;
+    }
+
+    img.img2 {
+        height: 100px;
+        padding: 5px;
+        margin: 0 auto;
+    }
+
+    section.seccion3 {
+        padding: 10px 30px;
+    }
+
+    article.articulo2 {
+        display: block
+    }
+
+    section.pricesSection {
+        padding: 10px 30px;
+    }
+
+    h3 {
+        font-size: 10px;
+        padding-top: 10px;
+    }
+
+    h4 {
+        font-size: 8px;
+        padding: 0px 0px 10px;
+    }
+
+    span.number {
+        font-size: 20px;
+    }
+
+    p.lastP {
+        margin-bottom: 10px;
+    }
+
+    button.priceButton2 {
+        font-size: 6px;    
+        padding: 4px 8px;
+        margin-bottom: 10px;
+    }
+
+    button.priceButton {
+        font-size: 6px;    
+        padding: 4px 8px;
+    }
+
+    section.brand {
+        padding: 10px 30px;
+    }
+
+    img.brandImg {
+        height: 22px;
+    }
+
+    section.contactUs {
+        display: block
+    }
+
+    article.contactUs1 {
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+
+    textarea {
+        width: auto;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+
+    input[type=submit] {
+        width: auto;
+        font-size: 6px;
+        padding: 4px 30px;
+    }
+
+    input[type=text] {
+        width: 70px;
+        height: 20px;
+        margin: 5px 0;
+    }
+
+    input[type=text].input1 {
+        margin: 5px 20px 5px 0;
+    }
+
+    label {
+        font-size: 8px;
+    }
+
+    article.contactUs2 {
+        font-size: 0px;
+        padding: 0 5px;
+    }
+
 }
 
